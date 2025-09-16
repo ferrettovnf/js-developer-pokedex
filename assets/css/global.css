@@ -1,3 +1,7 @@
+html {
+  line-height: 0.8; 
+  -webkit-text-size-adjust: 100%; 
+}
 * {
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
@@ -20,5 +24,14 @@ body {
         height: auto;
         margin: 1rem auto;
         border-radius: 1rem;
+    }
+}
+
+@keyframes preencher {
+    0% {
+        fill: transparent;
+    }
+    100% {
+        fill: #fff;
     }
 }

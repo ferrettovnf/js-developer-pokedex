@@ -6,6 +6,11 @@
     list-style: none;
 }
 
+a {
+    text-decoration: none;
+}
+
+
 .normal {
     background-color: #a6a877;
 }
